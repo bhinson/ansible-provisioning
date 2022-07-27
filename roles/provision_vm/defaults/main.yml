@@ -1,8 +1,7 @@
 ---
 # OVIRT_URL: https://example.com/ovirt-engine/api
-# OVIRT_USERNAME: admin
+# OVIRT_USERNAME: admin@internal
 # OVIRT_PASSWORD: adminpassword
-# OVIRT_DOMAIN: internal
 # OVIRT_CLUSTER: Default
 # vm_template: vm-template-name
 # vm_name: new-vm-name
