@@ -2,8 +2,8 @@
 - name: Obtain SSO token with username/password credentials
   ovirt_auth:
     url: "{{ ovirt_url }}"
-    username: "{{ OVIRT_USERNAME }}"
-    password: "{{ OVIRT_PASSWORD }}"
+    username: "{{ ovirt_username }}"
+    password: "{{ ovirt_password }}"
 
 - name: Deploy VM template
   ovirt_vm:
