@@ -18,3 +18,9 @@
     cpu_cores: "{{ vm_cpu }}"
     type: server
     delete_protected: no
+
+- name: Power on VM
+  ovirt_vm:
+    auth: "{{ ovirt_auth }}"
+    name: "{{ vm_name }}"
+    state: running
