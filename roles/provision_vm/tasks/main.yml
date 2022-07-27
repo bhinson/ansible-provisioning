@@ -1,7 +1,7 @@
 ---
 - name: Obtain SSO token with username/password credentials
   ovirt_auth:
-    url: "{{ OVIRT_URL }}"
+    url: "{{ ovirt_url }}"
     username: "{{ OVIRT_USERNAME }}"
     password: "{{ OVIRT_PASSWORD }}"
 
