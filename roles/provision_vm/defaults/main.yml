@@ -6,4 +6,5 @@
 # vm_template: vm-template-name
 # vm_name: new-vm-name
 # vm_memory: 2GiB
+# vm_memory_guaranteed: 1GiB
 # vm_cpu: 2

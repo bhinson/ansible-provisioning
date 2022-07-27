@@ -13,6 +13,7 @@
     template: "{{ vm_template }}"
     name: "{{ vm_name }}"
     memory: "{{ vm_memory }}"
+    memory_guaranteed: "{{ vm_memory_guaranteed }}"
     cpu_sockets: 1
     cpu_cores: "{{ vm_cpu }}"
     type: server
