@@ -1,0 +1,10 @@
+---
+# rhv_api: https://example.com/ovirt-engine/api
+# rhv_user: admin
+# rhv_password: adminpassword
+# rhv_domain: internal
+# rhv_cluster: Default
+# rhv_template: vm-template-name
+# new_vm_name: new-vm-name
+# new_vm_memory: 2GiB
+# new_vm_cpu: 2

@@ -1,0 +1,19 @@
+---
+- name: Obtain SSO token with username/password credentials
+  ovirt_auth:
+    url: "{{ rhv_api }}"
+    username: "{{ rhv_user }}@{{ rhv_domain }}"
+    password: "{{ rhv_password }}"
+
+- name: Deploy VM template
+  ovirt_vm:
+    auth: "{{ ovirt_auth }}"
+    state: present
+    cluster: "{{ rhv_cluster }}"
+    template: "{{ rhv_template }}"
+    name: "{{ new_vm_name }}"
+    memory: "{{ new_vm_memory }}"
+    cpu_sockets: 1
+    cpu_cores: "{{ new_vm_cpu }}"
+    type: server
+    delete_protected: no

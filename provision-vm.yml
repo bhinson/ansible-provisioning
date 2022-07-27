@@ -1,0 +1,8 @@
+---
+
+- name: Provision virtual machine
+  hosts: localhost
+  gather_facts: false
+
+  roles:
+    - role: provision_vm
