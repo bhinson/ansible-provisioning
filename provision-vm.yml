@@ -1,7 +1,7 @@
 ---
 
 - name: Provision virtual machine
-  hosts: localhost
+  hosts: all
   gather_facts: false
 
   roles:
